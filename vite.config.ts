@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
-  base: "/CypherBit-Website/",   // ⭐ required for GitHub Pages
+  base: "/",   // ⭐ required for GitHub Pages
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
