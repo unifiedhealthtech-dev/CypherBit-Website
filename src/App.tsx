@@ -14,7 +14,7 @@ const queryClient = new QueryClient({
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
+      <BrowserRouter basename="/CypherBit-Website/">
         <Routes>
           <Route path="/" element={<HomePage />} />
         </Routes>
