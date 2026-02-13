@@ -7,8 +7,8 @@ import { cn } from "@/lib/utils"
 import logoDark from "@/assets/logo-dark.png"
 
 const navLinks = [
-    { label: "About Us", href: "#about" },
     { label: "Projects", href: "#projects" },
+    { label: "About Us", href: "#about" },
     { label: "Careers", href: "#careers" },
 ]
 
