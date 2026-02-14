@@ -1,5 +1,4 @@
 import { motion } from "framer-motion"
-import { Link } from "react-router-dom"
 import { Separator } from "@/components/ui/separator"
 import logoLight from "@/assets/logo-light.png"
 
@@ -56,13 +55,13 @@ export function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 py-16">
                     {/* Brand */}
                     <div className="md:col-span-2">
-                        <Link to="/" className="flex items-center gap-2.5 mb-5 block w-fit">
+                        <a href="https://www.cypherbit.in/" className="flex items-center gap-2.5 mb-5 block w-fit">
                             <img
                                 src={logoLight}
                                 alt="Cypherbit Logo"
                                 className="h-10 w-auto object-contain"
                             />
-                        </Link>
+                        </a>
                         <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
                             At Cypherbit, we transform ideas into powerful digital platforms —
                             crafting seamless software experiences that drive innovation and
